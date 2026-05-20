@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large model files — never commit these (too big for GitHub)
+*.bin
+*.pt
+*.pth
+*.gguf
+*.safetensors
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+*.env
+secrets.txt
+api_keys.txt
